@@ -1,7 +1,7 @@
 {
-  "name": "crown-clothing",
-  "version": "0.1.0",
-  "private": true,
+  "name": "abs-clothing",
+  "version": "1.1.0",
+  "private": false,
   "dependencies": {
     "firebase": "^6.4.0",
     "lodash": "^4.17.15",
@@ -38,5 +38,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "abs test clothing store",
+  "main": "index.js",
+  "repository": "https://github.com/abazudosen/ABS_clothing",
+  "author": "abazudosen <abudosen@gmail.com>",
+  "license": "MIT"
 }
