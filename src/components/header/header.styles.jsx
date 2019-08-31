@@ -1,10 +1,5 @@
-import styled, {css} from 'styled-components';
-import { Link} from 'react-router-dom';
-
-const OptionsContainerStyles = css`
-  padding: 10px 15px;
-  cursor: pointer;
-`;
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const HeaderContainer = styled.div`
   height: 70px;
@@ -14,10 +9,10 @@ export const HeaderContainer = styled.div`
   margin-bottom: 25px;
 
   @media screen and (max-width: 800px) {
-      height: 60px;
-      padding: 10px;
-      margin-bottom: 20px;
-    }
+    height: 60px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
 `;
 
 export const LogoContainer = styled(Link)`
@@ -26,9 +21,9 @@ export const LogoContainer = styled(Link)`
   padding: 25px;
 
   @media screen and (max-width: 800px) {
-      width: 50px;
-      padding: 0;
-    }
+    width: 50px;
+    padding: 0;
+  }
 `;
 
 export const OptionsContainer = styled.div`
@@ -39,14 +34,11 @@ export const OptionsContainer = styled.div`
   justify-content: flex-end;
 
   @media screen and (max-width: 800px) {
-      width: 80%;
-    }
+    width: 80%;
+  }
 `;
 
 export const OptionLink = styled(Link)`
-  ${OptionsContainerStyles}
-`;
-
-export const OptionDiv = styled.div`
-  ${OptionsContainerStyles}
+  padding: 10px 15px;
+  cursor: pointer;
 `;
